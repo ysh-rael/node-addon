@@ -12,7 +12,7 @@ void Hello(const FunctionCallbackInfo<Value> &args)
     Isolate *isolate = args.GetIsolate();
     args.GetReturnValue().Set(
         String::NewFromUtf8(
-            isolate, "hello world! I am C++")
+            isolate, "hello world! I am C++ 2.0")
             .ToLocalChecked());
 }
 
